@@ -10,15 +10,15 @@ This repository is for the project Privacy Bills of Material.
 
 ## Overview
 
-<p align="center">
-The figure below illustrates the use cases of PriBOM.
-</p>
 <img title="" src="./overview_img/PriBOM_use_cases.jpg" alt="" data-align="center">
-
 <p align="center">
-The figure below provides an overview of PriBOM in the practical usage scenario.
+The use cases of PriBOM.
 </p>
+
 <img title="" src="./overview_img/PriBOM_overview.png" alt="" data-align="center">
+<p align="center">
+An overview of PriBOM in the practical usage scenario.
+</p>
 
 ## Folder Structure
 
