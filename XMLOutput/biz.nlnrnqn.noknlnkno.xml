@@ -1,0 +1,219 @@
+<GUIHierarchy app="biz.nlnrnqn.noknlnkno.apk">
+  <Activity name="biz.nlnrnqn.noknlnkno.b17">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.TextView" id="2131296256" idName="tv_title">
+        </View>
+        <View type="android.widget.ProgressBar" id="2131296258" idName="progress_loading">
+        </View>
+        <View type="android.widget.TextView" id="2131296259" idName="tv_intro">
+        </View>
+        <View type="android.widget.ImageView" id="2131296257" idName="img_splash">
+          <EventAndHandler event="click" handler="&lt;biz.nlnrnqn.noknlnkno.c: void onClick(android.view.View)&gt;" />
+        </View>
+      </Child>
+    </View>
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="biz.nlnrnqn.noknlnkno.MyImageSwitcher" id="2131296260" idName="img_switcher">
+          <EventAndHandler event="touch" handler="&lt;biz.nlnrnqn.noknlnkno.e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.TextView" id="2131296261" idName="tv_pos">
+            </View>
+            <View type="android.widget.TextView" id="2131296256" idName="tv_title">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+    <View type="android.view.Menu" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.view.MenuItem" id="2131296284" idName="cmd_exit">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296285" idName="cmd_about">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296282" idName="cmd_set_wallpaper">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296283" idName="cmd_fullscreen">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296281" idName="cmd_to_first">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="biz.nlnrnqn.noknlnkno.a57">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.TextView" id="2131296259" idName="tv_intro">
+        </View>
+        <View type="android.widget.ProgressBar" id="2131296258" idName="progress_loading">
+        </View>
+        <View type="android.widget.ImageView" id="2131296257" idName="img_splash">
+          <EventAndHandler event="click" handler="&lt;biz.nlnrnqn.noknlnkno.c: void onClick(android.view.View)&gt;" />
+        </View>
+        <View type="android.widget.TextView" id="2131296256" idName="tv_title">
+        </View>
+      </Child>
+    </View>
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.TextView" id="2131296261" idName="tv_pos">
+            </View>
+            <View type="android.widget.TextView" id="2131296256" idName="tv_title">
+            </View>
+          </Child>
+        </View>
+        <View type="biz.nlnrnqn.noknlnkno.MyImageSwitcher" id="2131296260" idName="img_switcher">
+          <EventAndHandler event="touch" handler="&lt;biz.nlnrnqn.noknlnkno.e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+      </Child>
+    </View>
+    <View type="android.view.Menu" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.view.MenuItem" id="2131296283" idName="cmd_fullscreen">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296285" idName="cmd_about">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296281" idName="cmd_to_first">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296282" idName="cmd_set_wallpaper">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296284" idName="cmd_exit">
+          <EventAndHandler event="item_selected" handler="&lt;biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="-1" allocStmt="virtualinvoke $r2.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog show()&gt;()" allocMethod="&lt;biz.nlnrnqn.noknlnkno.bg: void q()&gt;">
+    <View type="com.android.internal.widget.WeightedLinearLayout" id="16908666" idName="parentPanel">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908674" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_8: void onClick(android.view.View)&gt;" realHandler="&lt;biz.nlnrnqn.noknlnkno.ca: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908675" idName="leftSpacer">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908676" idName="rightSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908667" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908670" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908668" idName="title_template">
+              <Child>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+                <View type="com.android.internal.widget.DialogTitle" id="16908669" idName="alertTitle">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908671" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908672" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908673" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.ProgressDialog" allocLineNumber="-1" allocStmt="$r3 = new android.app.ProgressDialog" allocMethod="&lt;biz.nlnrnqn.noknlnkno.am: void &lt;init&gt;(biz.nlnrnqn.noknlnkno.aj,boolean,java.lang.String)&gt;">
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="-1" allocStmt="virtualinvoke $r27.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog show()&gt;()" allocMethod="&lt;biz.nlnrnqn.noknlnkno.bj: void h()&gt;">
+    <View type="com.android.internal.widget.WeightedLinearLayout" id="16908666" idName="parentPanel">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908671" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908672" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908673" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908674" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_12: void onClick(android.view.View)&gt;" realHandler="&lt;biz.nlnrnqn.noknlnkno.aj: void onClick(android.content.DialogInterface,int)&gt;" />
+                  <EventAndHandler event="click" handler="&lt;FakeName_16: void onClick(android.view.View)&gt;" realHandler="&lt;biz.nlnrnqn.noknlnkno.aj: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908676" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908675" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908667" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908670" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908668" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908669" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.ProgressDialog" allocLineNumber="-1" allocStmt="$r4 = new android.app.ProgressDialog" allocMethod="&lt;biz.nlnrnqn.noknlnkno.ab: void a(java.lang.String,java.lang.String,biz.nlnrnqn.noknlnkno.ac[])&gt;">
+  </Dialog>
+  <Dialog name="biz.nlnrnqn.noknlnkno.an" allocLineNumber="-1" allocStmt="$r3 = new biz.nlnrnqn.noknlnkno.an" allocMethod="&lt;biz.nlnrnqn.noknlnkno.as: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;">
+  </Dialog>
+  <Dialog name="biz.nlnrnqn.noknlnkno.ar" allocLineNumber="-1" allocStmt="$r1 = new biz.nlnrnqn.noknlnkno.ar" allocMethod="&lt;biz.nlnrnqn.noknlnkno.aj: void c()&gt;">
+  </Dialog>
+</GUIHierarchy>

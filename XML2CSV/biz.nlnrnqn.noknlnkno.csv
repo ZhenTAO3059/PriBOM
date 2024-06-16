@@ -1,0 +1,32 @@
+view type,view id,view idname,event and handler
+android.widget.LinearLayout,-1,NO_ID
+android.widget.TextView,2131296256,tv_title
+android.widget.ProgressBar,2131296258,progress_loading
+android.widget.TextView,2131296259,tv_intro
+android.widget.ImageView,2131296257,img_splash,click,<biz.nlnrnqn.noknlnkno.c: void onClick(android.view.View)>
+biz.nlnrnqn.noknlnkno.MyImageSwitcher,2131296260,img_switcher,touch,"<biz.nlnrnqn.noknlnkno.e: boolean onTouch(android.view.View,android.view.MotionEvent)>"
+android.widget.TextView,2131296261,tv_pos
+android.view.Menu,-1,NO_ID
+android.view.MenuItem,2131296284,cmd_exit,item_selected,<biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)>
+android.view.MenuItem,2131296285,cmd_about,item_selected,<biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)>
+android.view.MenuItem,2131296282,cmd_set_wallpaper,item_selected,<biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)>
+android.view.MenuItem,2131296283,cmd_fullscreen,item_selected,<biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)>
+android.view.MenuItem,2131296281,cmd_to_first,item_selected,<biz.nlnrnqn.noknlnkno.bg: boolean onOptionsItemSelected(android.view.MenuItem)>
+com.android.internal.widget.WeightedLinearLayout,16908666,parentPanel
+android.widget.LinearLayout,16908674,buttonPanel
+android.widget.Button,16908313,button1,click,<FakeName_8: void onClick(android.view.View)>
+android.widget.Button,16908315,button3
+android.widget.Button,16908314,button2
+android.widget.LinearLayout,16908675,leftSpacer
+android.widget.LinearLayout,16908676,rightSpacer
+android.widget.LinearLayout,16908667,topPanel
+android.widget.ImageView,16908670,titleDivider
+android.widget.LinearLayout,16908668,title_template
+android.widget.ImageView,16908294,icon
+com.android.internal.widget.DialogTitle,16908669,alertTitle
+android.widget.LinearLayout,16908671,contentPanel
+android.widget.ScrollView,16908672,scrollView
+android.widget.TextView,16908299,message
+android.widget.FrameLayout,16908673,customPanel
+android.widget.FrameLayout,16908331,custom
+android.widget.Button,16908313,button1,click,<FakeName_12: void onClick(android.view.View)>,click,<FakeName_16: void onClick(android.view.View)>
