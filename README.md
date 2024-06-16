@@ -23,10 +23,15 @@ An overview of PriBOM in the practical usage scenario.
 ## Dependency
 
 Python 3.8.18
+
 GATOR 3.8
+
 Androguard 4.0.1
+
 Setuptools 68.2.2
+
 Threadpool 1.3.2
+
 Wheel 0.41.2
 
 ## Folder Structure
@@ -43,4 +48,4 @@ Wheel 0.41.2
 - `JADXdecompile.py`: Decompile the APK file.
 - `XMLParser.py`: Parse the XML files in XMLOutput.
 - `WidgetInfo.py`: Extract widget detail.
-- `Mapping.py/`: Construct call graphs and map Android permissions.
+- `Mapping.py`: Construct call graphs and map Android permissions.
