@@ -4,9 +4,9 @@ This repository is for the project **PriBOM** (Privacy Bills of Material).
 
 🚀 To the best of our knowledge, we are the first to systematically summarise the privacy notice generation tools.
 
-🚀 We introduce the concept of **PriBOM** and propose a proof-of-concept implementation for mobile app development.
+🚀 We introduce the concept of **PriBOM** and propose a pre-fill for mobile app development.
 
-🚀 We conduct a usability evaluation to quantitatively and qualitatively assess the design of **PriBOM**.  
+🚀 We conduct a human evaluation to comprehsnsively assess the usefulness of **PriBOM**.  
 
 ## Overview
 
